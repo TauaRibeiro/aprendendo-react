@@ -3,7 +3,7 @@ import Tarefas from "./componentes/Tarefas";
 import "./App.css";
 import { useEffect, useState } from "react";
 import Titulo from "./componentes/Titulo";
-import Teste from "./componentes/Teste"
+
 
 function App() {
   const [tarefas, setTarefas] = useState(JSON.parse(localStorage.getItem("tarefas")));
